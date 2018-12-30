@@ -1,0 +1,37 @@
+html {
+  min-height: 100vh;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.wrapper {
+  padding: 0;
+}
+
+.wrapper, .container {
+  min-height: calc(100vh - 90px);
+  max-height: calc(100vh - 90px);
+  width: 100vw;
+  margin: 0;
+}
+
+.messageList {
+  padding: 5%;
+  overflow-y: scroll;
+  max-height: calc(100vh - 260px);
+}
+
+.card {
+  max-width: 20rem;
+}
+
+.btn {
+  margin: 5px;
+}
+
+#addGroupBtn {
+  margin: 5px;
+  position: fixed;
+  bottom: 5px !important;
+  right: 5px !important;
+}
